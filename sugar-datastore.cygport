@@ -1,5 +1,8 @@
 inherit pygtk
 
+NAME="sugar-datastore"
+VERSION=0.98.1
+RELEASE=1
 CATEGORY="Sugar"
 SUMMARY="Sugar Desktop journaling backend"
 DESCRIPTION="The award-winning Sugar Learning Platform promotes
@@ -9,5 +12,3 @@ especially for children, Sugar offers an alternative to traditional
 office-desktop software."
 HOMEPAGE="http://www.sugarlabs.org/"
 SRC_URI="http://download.sugarlabs.org/sources/sucrose/glucose/${PN}/${P}.tar.bz2"
-
-KEEP_LA_FILES="none"
